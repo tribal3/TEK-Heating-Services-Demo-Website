@@ -150,7 +150,7 @@ export function Navbar() {
               </span>
             </a>
 
-            <a href={site.phoneHref} className="btn-primary px-5 py-3 text-[13px]">
+            <a href={site.phoneHref} className="btn-primary px-5 py-3 text-[13px] xl:hidden">
               <Phone className="h-4 w-4" aria-hidden="true" />
               Call Now
             </a>
